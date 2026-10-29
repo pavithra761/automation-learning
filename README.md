@@ -12,4 +12,4 @@ To match the diagram in Zapier
 
 The trigger step is Google Sheets → New Spreadsheet Row.
 Action 1 is Gmail → Send Email, with your fields clicked into Subject and Body (this is the data mapping).
-Action 2 is Google Sheets → Create Spreadsheet Row.
+Action 2 is Google Sheets → Create Spreadsheet Row.s
