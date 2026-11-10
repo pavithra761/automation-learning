@@ -1,0 +1,79 @@
+{
+  "name": "Intake test",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "intake",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.2,
+      "position": [
+        80,
+        0
+      ],
+      "id": "bdef206f-122f-4442-8e92-dbe73f77ac79",
+      "name": "Webhook",
+      "webhookId": "4a99f94d-8c8b-43d0-a50a-98b76e76aa9e"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "16bcd56c-4256-41a7-bbfc-4dfa97904508",
+              "name": "name",
+              "value": "{{ $json.body.name }}",
+              "type": "string"
+            },
+            {
+              "id": "079b5941-9f37-4614-9237-fc5111f8b088",
+              "name": "message",
+              "value": "{{ $json.body.message }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        336,
+        0
+      ],
+      "id": "12dec02f-913d-494f-8ce9-b84232d5f55e",
+      "name": "Edit Fields"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "timeSavedMode": "fixed",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false
+  },
+  "versionId": "3210c3c8-454f-422c-937d-92b94e84e2ee",
+  "meta": {
+    "instanceId": "7f9ff08fcb9b2fda8658fee93af08820863e4f582595e68d564e511450357323"
+  },
+  "nodeGroups": [],
+  "id": "es0MFub4JuGMP7l7",
+  "tags": []
+}
