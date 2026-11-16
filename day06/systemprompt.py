@@ -20,7 +20,7 @@ r2 = client.messages.create(
     model="claude-haiku-5-5",
     max_tokens=300,
     system="You are a concise support agent. Answer in two sentences, no jargon.",
-    messages=[{"role": "user", "content": "what is a cattepilar"}],
+    messages=[{"role": "user", "content": question}],
 )
 print("\n--- With system prompt ---")
 print(r2.content[0].text)

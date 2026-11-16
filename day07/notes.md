@@ -13,3 +13,32 @@ output
 gave a long detailed output for v1
 
 now v2
+it gave one simple word reply.
+
+
+
+== samples/classify_1.txt
+billing
+
+== samples/classify_2.txt
+bug
+
+== samples/classify_3.txt
+other
+
+== samples/classify_4.txt
+billing
+
+== samples/classify_5.txt
+other
+
+
+
+IMPORTANT
+VALIDATION AND RETRY
+
+Validation
+validate it. before giving the answer. to chekc if it makes sense.
+The schema already checks that total is a number. Validation checks that the number is sensible, for example not negative.
+
+Retry means that if the answer fails a check, you tell the model what was wrong and let it try again. You allow a few tries. After that you stop with a clear failure, and you don’t carry on with bad data

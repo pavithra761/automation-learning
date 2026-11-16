@@ -13,3 +13,10 @@ To match the diagram in Zapier
 The trigger step is Google Sheets → New Spreadsheet Row.
 Action 1 is Gmail → Send Email, with your fields clicked into Subject and Body (this is the data mapping).
 Action 2 is Google Sheets → Create Spreadsheet Row.s
+
+
+
+day 6 models and system prompt
+model	latency (s)	tokens	cost ($)	quality (1-5)
+claude-opus-5-5	4.42	959	0.009132	5
+claude-haiku-5-5	1.71	835	0.000166	4

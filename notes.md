@@ -11,7 +11,7 @@ action taken wen the sheets were filled with data and mail sent to host
 data mapping: sending the info mapping it with requiremennts
 
 
-
+NEVER KEEP A API KEY IN A FILE U COMMIT
 
 
 Day 2: Api(application programming interface) and JSON(javascript objectnotion)
@@ -107,3 +107,20 @@ curl -X POST https://httpbin.org/post -H "Content-Type: application/json" -d '{"
 - -X POST: set the method
 - -H "Key: value": add a header
 - -d '...': send a body
+
+
+DAY3:
+python
+1.made a folder in terminal with location.
+2.created a python environment for the folder with command
+ pthon -m venv .venv  (with this a lib and bin flder will be created)
+3.now activate it with source.
+source .venv/bin/activate
+
+Basics:
+variable,key,list,dictionary
+name = "sam" variables = key
+list holds a list of items in order
+repos = ["a","b","c"]
+dictionary holds bth key and value {}
+person = {"name": "Sam", "city": "Austin"}
