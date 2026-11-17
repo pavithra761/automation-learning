@@ -1,0 +1,104 @@
+{
+  "name": "error alerts",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "596a0604-bef9-45d9-811d-e9b158ab959e",
+      "name": "Error Trigger"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "3b3b3ae8-61d0-4f83-9e6e-1dd50da1fbd9",
+              "name": "=message",
+              "value": "=Workflow \"{{ $json.workflow.name }}\" failed at node \"{{ $json.execution.lastNodeExecuted }}\": {{ $json.execution.error.message }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        176,
+        0
+      ],
+      "id": "b0510db7-ed72-41d9-ab0f-38094e1c5511",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://ntfy.sh/YOUR-TOPIC",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "title",
+              "value": "Workflow failed"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "text/plain",
+        "body": "={{ $json.message }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        400,
+        0
+      ],
+      "id": "bdba5170-d4f1-44cf-8161-81f086d34010",
+      "name": "HTTP Request"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Error Trigger": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "6bb9acb4-21ba-4e56-880d-ce23f4c5e89c",
+  "meta": {
+    "instanceId": "7f9ff08fcb9b2fda8658fee93af08820863e4f582595e68d564e511450357323"
+  },
+  "nodeGroups": [],
+  "id": "bKWdeIFmbEGLzT2z",
+  "tags": []
+}
