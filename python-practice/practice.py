@@ -21,11 +21,17 @@
 # print(message)
 
 
-labels = "bug"
-if labels == "billing":
-    print("send to billing team")
-elif labels == "bug":
-    print("send to enginer")
-else:
-    print("sends to general inbox")
+# labels = "bug"
+# if labels == "billing":
+#     print("send to billing team")
+# elif labels == "bug":
+#     print("send to enginer")
+# else:
+#     print("sends to general inbox")
 
+# with open("test.txt","w") as f:
+#     file = f.write("hello")
+
+
+# with open("text.txt") as f:
+#     file=f.read()
