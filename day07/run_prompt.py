@@ -26,3 +26,4 @@ response = client.messages.create(
 for block in response.content:
     if block.type == "text":
         print(block.text)
+

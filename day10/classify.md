@@ -9,7 +9,6 @@ Categories:
 - other: anything that fits none of the above
 
 Rules:
-- If the message is too short or vague to tell what the customer needs (for example a single word), answer other.
 - If an email fits more than one category, choose the main reason the customer wrote.
 - anything with billing and other options,prioritise billing.
 - If it fits none, answer other.
