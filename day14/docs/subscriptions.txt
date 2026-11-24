@@ -1,0 +1,21 @@
+Northwind Coffee: Subscriptions
+
+Northwind Coffee is a fictional company used for a training exercise.
+
+How subscriptions work
+A Northwind subscription delivers your chosen coffee on a schedule. You can choose weekly, every two weeks, or monthly delivery. Subscribers save 10 percent on every subscription order compared with the regular price. Shipping on subscription orders follows the standard shipping policy, so orders of $35 or more ship free.
+
+Changing your subscription
+You can change the coffee, the bag size, the grind, or the delivery frequency from your account page at any time. Changes made at least 48 hours before your next shipment apply to that shipment. Changes made later apply to the one after.
+
+Skipping and pausing
+You can skip a single delivery at any time before the 48-hour cutoff. You can also pause your subscription for up to 3 months. After 3 months, the subscription resumes automatically unless you cancel it.
+
+Cancelling
+You can cancel at any time from your account page, with no cancellation fee. To avoid being charged for the next shipment, cancel at least 48 hours before the shipment date. If an order has already been prepared, it will still ship and cannot be refunded as a subscription cancellation, but it is covered by the normal returns policy.
+
+Payments
+Your card is charged when each shipment is prepared. If a payment fails, we retry once a day for 3 days. If all attempts fail, the shipment is skipped and you will receive an email asking you to update your payment method.
+
+Promotions
+The 10 percent subscription discount cannot be combined with promotion codes. When both apply, the larger of the two discounts is used.

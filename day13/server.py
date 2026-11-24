@@ -4,7 +4,7 @@ from mcp.server.mcpserver import MCPServer
 mcp = MCPServer("weather")
 
 
-@mcp.tool()
+@mcp.tool() #command to register the function as a mcp tool,to call it whenever needed
 def get_current_temperature(latitude: float, longitude: float) -> str:
     """Get the current temperature and wind speed for a place, given its latitude and longitude."""
     response = httpx.get(

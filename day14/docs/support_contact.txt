@@ -1,0 +1,23 @@
+Northwind Coffee: Customer Support
+
+Northwind Coffee is a fictional company used for a training exercise.
+
+Support hours
+Our support team is available Monday through Friday from 8:00 AM to 6:00 PM Eastern Time, and on Saturday from 9:00 AM to 2:00 PM Eastern Time. Support is closed on Sundays and on these holidays: New Year's Day, Memorial Day, Independence Day, Labor Day, Thanksgiving Day, and Christmas Day.
+
+How to reach us
+Email: support@northwindcoffee.example. We reply to emails within 1 business day. Messages sent outside support hours are answered the next business day.
+Phone: 1-555-0142. Phone support follows the hours above.
+Live chat: available on our website during support hours. Chat is usually the fastest way to get help with an order.
+
+What to include in your message
+To help us respond faster, include your order number, which you can find in your order confirmation email, and a short description of the problem. For damaged items, attach a photo. For grinder warranty claims, include the serial number from the underside of the grinder.
+
+Order changes
+You can change or cancel an order within 1 hour of placing it by contacting support. After that, the order is sent to the warehouse and may no longer be changed. If an order has already shipped, you can return it under the returns policy.
+
+Account help
+If you cannot log in, use the Forgot password link on the sign-in page. A reset email is sent immediately. If the email does not arrive within 10 minutes, check your spam folder, then contact support.
+
+Feedback
+We welcome feedback on our coffee and service. Send comments to the support email address and mark the subject line as Feedback.

@@ -1,0 +1,21 @@
+Northwind Coffee: Returns and Refunds
+
+Northwind Coffee is a fictional company used for a training exercise.
+
+Coffee beans
+Unopened bags of coffee can be returned within 30 days of delivery for a full refund. Because coffee is a food product, we cannot accept returns of opened bags. If an opened bag has a quality problem, such as stale taste, a wrong grind, or a damaged bag, report it within 7 days of delivery. We will send a free replacement bag, and you do not need to send the original back.
+
+Equipment
+Brewing equipment, such as kettles, pour-over drippers, and grinders, can be returned within 45 days of delivery if it is unused and in its original packaging. Used equipment can only be returned if it is defective, and defective items fall under our warranty policy.
+
+How to start a return
+Email support with your order number and the reason for the return. We will reply with a return authorization number and a shipping address. Items sent back without an authorization number may be delayed or refused.
+
+Return shipping costs
+The customer pays for return shipping, unless the item arrived damaged or defective, or we sent the wrong item. In those cases we provide a prepaid return label.
+
+When you get your refund
+Once we receive your return, we inspect it and process the refund within 2 business days. Refunds are issued to the original payment method and typically appear within 5 to 7 business days, depending on your bank. Original shipping charges are not refunded, except when the return is our error.
+
+Items that cannot be returned
+Gift cards, opened coffee, and items marked as final sale cannot be returned.

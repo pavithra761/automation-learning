@@ -1,0 +1,21 @@
+Northwind Coffee: Shipping Policy
+
+Northwind Coffee is a fictional company used for a training exercise.
+
+Where we ship
+We ship to all 50 US states, including Alaska and Hawaii. We do not currently ship outside the United States. Orders can be delivered to PO boxes, but only with standard shipping.
+
+Shipping options and prices
+Standard shipping takes 3 to 5 business days and costs $4.95. Orders of $35 or more qualify for free standard shipping. Express shipping takes 1 to 2 business days and costs $12.50. Express shipping is not available for PO boxes. Free shipping does not apply to express shipping.
+
+When orders leave our warehouse
+We ship orders Monday through Friday. Orders placed before 2:00 PM Eastern Time on a business day ship the same day. Orders placed after 2:00 PM, or on a weekend or holiday, ship on the next business day. We do not ship on Saturday or Sunday.
+
+Tracking
+When your order ships, we send an email with a tracking link. The email usually arrives within a few hours of the order leaving the warehouse. If you have not received tracking information 2 business days after ordering, contact support.
+
+Fresh roasting
+Our coffee is roasted to order. Beans are roasted within 48 hours of shipping, so roasting adds about one extra business day to the processing time on the busiest weeks, such as the week of a holiday.
+
+Lost or damaged packages
+If your package arrives damaged or does not arrive within 10 business days of the ship date, contact support with your order number. We will send a replacement or issue a refund at no cost to you.

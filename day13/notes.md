@@ -68,3 +68,11 @@ MCP would let any client use them.
 ## Where it fits in the course
 Day 11-12: tools inside my own agent. Day 13: the same idea as a
 standard server. Later: agents can use MCP tools instead of custom ones.
+
+
+what was done?
+mcp
+Configure weathermcp in claude desktop config file
+give a server.py with tools to use it.
+by asking questions it searches with tools and returns the answer.
+ 

@@ -1,0 +1,21 @@
+Northwind Coffee: Brewing Guide
+
+Northwind Coffee is a fictional company used for a training exercise.
+
+The basics
+Good coffee depends on four things: the amount of coffee, the amount of water, the grind size, and the water temperature. For most methods, use water between 93 and 96 degrees Celsius (200 to 205 degrees Fahrenheit). Water straight from a boil is too hot. Let it sit for about 30 seconds after boiling.
+
+Pour-over
+Use a ratio of 1 gram of coffee to 16 grams of water. For a single mug, that is 20 grams of coffee and 320 grams of water. Use a medium grind, about the texture of sea salt. Wet the filter, add the coffee, pour a small amount of water to let the coffee bloom for 30 seconds, then pour the rest in slow circles. Total brew time should be about 3 minutes.
+
+French press
+Use a ratio of 1 gram of coffee to 15 grams of water, with a coarse grind. Pour in all the water, stir gently, and place the lid on with the plunger up. Steep for 4 minutes, then press slowly. Pour the coffee out right away, because coffee left on the grounds keeps extracting and becomes bitter.
+
+Espresso
+Use 18 grams of ground coffee to produce 36 grams of espresso in about 28 seconds. Use a fine grind. If the shot runs faster than 25 seconds, grind finer. If it takes longer than 32 seconds, grind coarser.
+
+Cold brew
+Mix coffee and cold water at a ratio of 1 to 8, using a coarse grind, to make a concentrate. Steep in the refrigerator for 14 hours, then strain. Dilute the concentrate with an equal amount of water or milk before drinking. The concentrate keeps for up to 10 days in the refrigerator.
+
+Storing your coffee
+Keep beans in an airtight container away from light, heat, and moisture. Do not store coffee in the freezer or the refrigerator. For the best flavor, grind just before brewing.
