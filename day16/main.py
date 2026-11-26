@@ -17,3 +17,7 @@ async def webhook(request: Request, x_webhook_secret: str = Header(default=None)
     payload = await request.json()
     print("Received:", payload)
     return {"ok": True}
+
+@app.get("/health")
+async def health():
+    return {"status": "ok"}
